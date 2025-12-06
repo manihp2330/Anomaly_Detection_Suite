@@ -6,7 +6,8 @@ A standalone, NiceGUI-based log anomaly detection tool with support for:
 - **Offline folder analysis** for large log collections
 - **Pattern management** (default + custom regexes)
 - **Category-based filtering and drill-down dialogs**
-- Export of anomalies to **JSON**
+- Export of anomalies to **JSON** 
+
 
 ## Project Structure
 
