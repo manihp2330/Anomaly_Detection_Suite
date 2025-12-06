@@ -1,12 +1,19 @@
-# Anomaly Detector (NiceGUI)
+# Anomaly Detector Suite[ADS Log Analysis Tool] (NiceGUI + Python)
 
-A standalone, NiceGUI-based log anomaly detection tool with support for:
+A modern, UI-based log analysis tool that detects anomalies in large system or Wi-Fi logs using customizable
+regex patterns. Built with **Python**, **NiceGUI**, and multi-threaded parsing, this tool enables fast offline
+analysis and live monitoring.
 
-- **Live anomaly detection** during test execution
-- **Offline folder analysis** for large log collections
-- **Pattern management** (default + custom regexes)
-- **Category-based filtering and drill-down dialogs**
-- Export of anomalies to **JSON**
+> This repository contains an **open-source-safe** version of the tool.
+
+## 🚀 Features
+
+- **Live log monitoring** – stream logs and see anomalies in near real time.
+- **Offline folder scanning** – recursively scan a directory of logs and aggregate anomalies.
+- **Customizable anomaly patterns** – add, edit, delete, import, and export regex-based rules.
+- **Draggable & resizable dialogs** – inspect full log lines and surrounding context.
+- **Fast multi-threaded parsing** – suitable for large logs (100 MB+).
+- **JSON export** – export anomaly tables for further analysis or pipelines.
 
 ## Project Structure
 
