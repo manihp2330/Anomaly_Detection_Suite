@@ -28,7 +28,7 @@ def create_anomaly_page():
 
         # ------------------ LIVE TAB ------------------
         with ui.tab_panel(live_tab):
-            #create_live_anomaly_tab()
+            create_live_anomaly_tab()
 
         
 

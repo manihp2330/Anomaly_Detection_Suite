@@ -1,6 +1,6 @@
 from nicegui import ui
 
-from anomaly_detector_core.ui_main import create_main_ui
+from anomaly_detector.ui_main import create_main_ui
 
 
 @ui.page('/')
